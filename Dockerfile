@@ -33,7 +33,7 @@ RUN sed -i -e 's/\r$//' check-permissions.sh \
  start-dns-server.sh
 
 RUN git init &&\
-    git remote add origin https://github.com/cta-wave/dpctf-test-runner.git
+    git remote add origin https://github.com/AMT-WAVE-Test-Suite/dpctf-test-runner.git
 
 FROM base AS test-runner
 COPY cache/runner-rev.txt /dev/null
