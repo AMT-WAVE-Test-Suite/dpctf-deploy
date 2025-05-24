@@ -20,7 +20,7 @@ services:
       - ./content:/home/ubuntu/DPCTF/content
       #- ./test-config.json:/home/ubuntu/DPCTF/test-config.json
     environment:
-      AGREE_EULA: "no"
+      AGREE_EULA: "yes"
       START_DNS: "yes"
     extra_hosts:
       - "www1.xn--n8j6ds53lwwkrqhv28a.web-platform.test:0.0.0.0"
